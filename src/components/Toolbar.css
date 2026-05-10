@@ -1,0 +1,66 @@
+.toolbar {
+  background: linear-gradient(90deg, #0f0f0f 0%, #1a1a1a 100%);
+  border-bottom: 2px solid #333;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: white;
+}
+
+.toolbar-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(135deg, #0066cc 0%, #00d4ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.toolbar-btn {
+  padding: 8px 14px;
+  background: linear-gradient(135deg, #222 0%, #333 100%);
+  color: white;
+  border: 1px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.toolbar-btn:hover {
+  background: linear-gradient(135deg, #333 0%, #444 100%);
+  border-color: #777;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.toolbar-btn:active {
+  transform: translateY(0);
+}
+
+.toolbar-info {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.file-name {
+  font-size: 12px;
+  color: #aaa;
+  font-family: 'Courier New', monospace;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
